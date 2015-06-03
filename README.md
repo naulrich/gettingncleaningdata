@@ -48,7 +48,7 @@ to the tidy dataset
 
 ### The Script: run_analysis.R
 This script guides through all the necessary steps in order to get from the raw data
-in folder "UCI HAR Data to the tidy dataframe 
+in folder "UCI HAR Data to the tidy dataframe conducting the steps in the project instructions (see above).
 
 ### The Tidy Data: tidydata.df
 The tidy dataframe we get after running run_analysis. 
