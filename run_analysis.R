@@ -69,8 +69,12 @@ rm(activitylist)
 data.activity <- data %>%
                  group_by(subjectId, activity) %>%
                  summarise_each(funs(mean))    
-write.table(data.activity, file = "tidydata.df")
-tidydata <- read.table("tidydata.df") #not necessary, only a short test whether the write.table defaults are fine :)
+write.table(data.activity, file = "tidydata.txt", row.name=FALSE)
+tidydata <- read.table("tidydata.txt") #not necessary, only a short test whether the write.table defaults are fine :)
+
+# clean up
+rm(data, data.activity)
+
 
 # Note: summarise_each applies the defined functions (here: mean) to all
 # the columns. This is handy as here there are many variables given.
