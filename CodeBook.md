@@ -66,5 +66,6 @@ ______________________________________________________
 |tBodyAcc.std...X  | -0.9280565 | the mean of standard deviations of tBodyAcc in X direction of all the Laying Activities of volunteer 1|
 |tBodyAcc.std...Y  | -0.8368274 | the mean of standard deviations of tBodyAcc in Y direction of all the Laying Activities of volunteer 1|
 |tBodyAcc.std...Z  | -0.8260614 | the mean of standard deviations of tBodyAcc in Z direction of all the Laying Activities of volunteer 1|
+| ... | ... | ...|
 
 ______________________________________________________
