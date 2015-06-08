@@ -44,6 +44,7 @@ Additional Notes:
 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
+- in the original data set, features got names like "tBodyAcc-mean()-X" which are not valid in R. the special signs "-" and bracket where automatically replaced by "." by saving these names as names in R. Everything else remains the same.
 
 On the units:
 
